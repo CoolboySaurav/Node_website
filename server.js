@@ -10,9 +10,6 @@ class Emitter extends EventEmitter {};
 // create a new instance of the Emitter class
 const myEmitter = new Emitter();
 myEmitter.on('log', (msg, logFile) => logEvent(msg, logFile));
-// // add a listener for the 'log' event
-// myEmitter.on('log', (msg) => logEvent(msg));
-// myEmitter.emit('log', 'This is an event log message');
 
 
 const PORT = process.env.PORT || 3000;
