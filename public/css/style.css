@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.divide {
+    
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.img-fluid {
+    container-type: block;
+    border-radius: 20px;
+    align-items: center;
+}

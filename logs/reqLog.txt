@@ -38,3 +38,5 @@
 
 2024-05-05 21:02:19	af6c223e-2165-4640-b8c0-3f84137f5d5e	/new-page.html	GET
 
+2024-05-07 18:48:47	4b19adfd-d8be-42b0-9a18-abf9747ef207	GET	undefined	/index
+2024-05-07 18:48:47	b6328615-3464-4d97-9a76-6f4395e3c5ee	GET	undefined	/css/style.css

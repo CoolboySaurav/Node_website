@@ -2,16 +2,18 @@
   "name": "node_website",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "express-server.js",
   "scripts": {
-    "dev": "nodemon server",
-    "start": "node server"
+    "dev": "nodemon express-server",
+    "start": "node express-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "date-fns": "^3.6.0",
+    "express": "^4.19.2",
     "uuid": "^9.0.1"
   }
 }
