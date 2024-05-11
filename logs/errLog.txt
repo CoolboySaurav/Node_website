@@ -17,3 +17,4 @@
 2024-05-10 20:41:35	acf973bd-e410-4fd0-9d6c-0cfa3608e057	TypeError : req.accept is not a function
 2024-05-10 20:41:42	cb751954-2f82-4c7b-a606-e4c695d872b1	TypeError : req.accept is not a function
 2024-05-10 20:41:57	f9b0fb72-9a10-47aa-b75d-22774683ae44	TypeError : req.accept is not a function
+2024-05-11 15:43:55	80fdd56d-f1a6-495c-8d2e-982efea3640c	SyntaxError : Unexpected token ''', ..."{ "user": 'saurav', "... is not valid JSON
