@@ -9,6 +9,16 @@ const cors = require('cors');
 const whitelist = ['http://localhost:3000', 'http://localhost:3001'];
 app.use(cors());
 
+const corsOptions = {
+    origin: function (origin, callback) {
+        if (whitelist.indexOf(origin) !== -1) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    }, 
+    optionsSuccessStatus: 200
+};
 // Custom middleware logger
 app.use(logger);
 // Environment variable PORT or 3000
