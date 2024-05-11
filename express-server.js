@@ -38,14 +38,23 @@ app.get('^/$|/index(.html)?', ( req, res) => {
 
 app.get('/new-page(.html)?', ( req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'new-page.html'));
-}); 
+});  
 
 app.get('/old-page(.html)?', ( req, res) => {
     res.redirect(301,'/new-page.html');
 }); 
 
-app.get('/*', ( req, res) => {
-    res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
+app.all('*', ( req, res) => {
+    res.status(404);
+    if (req.accept('html')) {
+        res.sendFile(path.join(__dirname, 'views', '404.html'));
+    }
+    else if (req.accept('json')) {
+        res.json({error: 'Resource not found'});
+    }
+    else {
+        res.type('txt').send('404 Not Found');
+    }
 });
 
 app.use(errorHandler);
