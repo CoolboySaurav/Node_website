@@ -2,51 +2,46 @@
     {
         "id": 1,
         "name": "John Doe",
-        "email": ""
+        "email": "johndoe@email.com"
     },
     {
         "id": 2,
         "name": "Jane Doe",
-        "email": ""
+        "email": "janedoe@email.com"
     },
     {
         "id": 3,
         "name": "John Smith",
-        "email": ""
+        "email": "johnsmith@email.com"
     },
     {
         "id": 4,
         "name": "Jane Smith",
-        "email": ""
+        "email": "janesmith@email.com"
     },
     {
         "id": 5,
         "name": "John Johnson",
-        "email": ""
+        "email": "johnjohnson@email.com"
     },
     {
         "id": 6,
         "name": "Jane Johnson",
-        "email": ""
+        "email": "janejohnson@email.com"
     },
     {
         "id": 7,
         "name": "John Brown",
-        "email": ""
+        "email": "johnbrown@email.com"
     },
     {
         "id": 8,
         "name": "Jane Brown",
-        "email": ""
+        "email": "janedoe@email.com"
     },
     {
         "id": 9,
         "name": "John White",
-        "email": ""
-    },
-    {
-        "id": 10,
-        "name": "Jane White",
-        "email": ""
+        "email": "janedoe@email.com"
     }
 ]
