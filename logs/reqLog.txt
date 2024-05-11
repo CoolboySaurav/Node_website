@@ -105,3 +105,6 @@
 2024-05-11 15:44:12	88a8fc6b-06db-4379-8134-7d3407d085a4	POST	undefined	/auth
 2024-05-11 15:45:00	4bc0bad8-22ea-4478-a60a-35fc30b8f88e	POST	undefined	/auth
 2024-05-11 15:45:04	f8856dce-868a-408c-b9bd-377e7297b2e5	POST	undefined	/auth
+2024-05-11 15:53:54	ba5791a2-07be-4795-badb-fe7bf772bbd0	POST	undefined	/register
+2024-05-11 15:53:58	89f73029-d8c6-48df-a1aa-1a01cbbce242	POST	undefined	/register
+2024-05-11 15:54:06	35bd1e29-9f25-4c1b-b177-81e5331fd7cf	POST	undefined	/auth
