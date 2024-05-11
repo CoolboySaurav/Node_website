@@ -40,3 +40,6 @@
 
 2024-05-07 18:48:47	4b19adfd-d8be-42b0-9a18-abf9747ef207	GET	undefined	/index
 2024-05-07 18:48:47	b6328615-3464-4d97-9a76-6f4395e3c5ee	GET	undefined	/css/style.css
+2024-05-10 20:09:09	22d475e5-3fdb-40e2-908c-ccbebcc56d33	GET	undefined	/new-page
+2024-05-10 20:09:09	1e41bced-eb37-4016-90a7-38e0bcb68a6d	GET	undefined	/css/style.css
+2024-05-10 20:09:09	e212fe1a-95be-4188-9697-4e56b1d2bba9	GET	undefined	/img/profile.png

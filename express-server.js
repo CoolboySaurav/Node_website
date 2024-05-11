@@ -4,6 +4,7 @@ const http = require('http');
 const path = require('path');
 const {logger} = require('./middleware/logEvents');
 const cors = require('cors');
+const errorHandler = require('./middleware/errorHandler');
 
 // Cross-Origin Resource Sharing (CORS) is a security feature that restricts cross-origin HTTP requests that are initiated from scripts running in the browser.
 const whitelist = ['http://localhost:3000', 'http://localhost:3001'];
@@ -11,7 +12,7 @@ app.use(cors());
 
 const corsOptions = {
     origin: function (origin, callback) {
-        if (whitelist.indexOf(origin) !== -1) {
+        if (whitelist.indexOf(origin) !== -1 || !origin) {
             callback(null, true);
         } else {
             callback(new Error('Not allowed by CORS'));
@@ -46,5 +47,7 @@ app.get('/old-page(.html)?', ( req, res) => {
 app.get('/*', ( req, res) => {
     res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
+
+app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
