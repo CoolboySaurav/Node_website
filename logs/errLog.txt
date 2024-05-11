@@ -1,2 +1,19 @@
 2024-05-05 21:02:04	b8ce445e-ab51-4009-96b4-917980aaafda	TypeError : fsPromises.readFil is not a function
 
+2024-05-10 20:30:12	7eee10c4-0393-4201-8406-4767f6be6cac	TypeError : req.accept is not a function
+2024-05-10 20:32:05	afdc1557-49bf-45ec-84f8-b5ae25132c12	TypeError : req.accept is not a function
+2024-05-10 20:32:44	c7a392be-2a66-4a3f-a80a-d752e8dabe4f	TypeError : req.accept is not a function
+2024-05-10 20:32:45	a5399c42-c8c1-4025-8c43-f2773384e5b6	TypeError : req.accept is not a function
+2024-05-10 20:32:45	84e80358-166d-4f51-831f-8d72bd8a2321	TypeError : req.accept is not a function
+2024-05-10 20:32:46	ff5a0525-b111-4a1d-a705-84e79f2d2497	TypeError : req.accept is not a function
+2024-05-10 20:33:31	15b55fdc-6a03-495c-83ad-f1966646c79f	TypeError : req.accept is not a function
+2024-05-10 20:33:34	a0a707c2-4298-40d9-b5df-5786d8835a07	TypeError : req.accept is not a function
+2024-05-10 20:39:35	19962933-f31c-473d-b0a1-4adc311f69a1	TypeError : req.accept is not a function
+2024-05-10 20:39:36	d98d8c01-89bb-41b7-a368-d87d472c9145	TypeError : req.accept is not a function
+2024-05-10 20:39:36	ee63fa86-ac14-4617-ac3d-feaff9f9fd42	TypeError : req.accept is not a function
+2024-05-10 20:39:36	0234d9a3-527c-47af-bb8d-c70109134aeb	TypeError : req.accept is not a function
+2024-05-10 20:39:37	29a8b282-dd73-48d5-86f4-6bdbc6d1ad8e	TypeError : req.accept is not a function
+2024-05-10 20:41:31	fc242e09-cdc5-47df-b0ec-4041af36b548	TypeError : req.accept is not a function
+2024-05-10 20:41:35	acf973bd-e410-4fd0-9d6c-0cfa3608e057	TypeError : req.accept is not a function
+2024-05-10 20:41:42	cb751954-2f82-4c7b-a606-e4c695d872b1	TypeError : req.accept is not a function
+2024-05-10 20:41:57	f9b0fb72-9a10-47aa-b75d-22774683ae44	TypeError : req.accept is not a function

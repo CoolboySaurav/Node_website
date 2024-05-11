@@ -29,8 +29,11 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/', express.static(path.join(__dirname, 'public')));
+app.use('/subdir', express.static(path.join(__dirname, 'public')));
 
+app.use('/subdir', require('./routes/subdir'));
+app.use('/', require('./routes/root'));
 
 app.get('^/$|/index(.html)?', ( req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
@@ -45,16 +48,7 @@ app.get('/old-page(.html)?', ( req, res) => {
 }); 
 
 app.all('*', ( req, res) => {
-    res.status(404);
-    if (req.accept('html')) {
-        res.sendFile(path.join(__dirname, 'views', '404.html'));
-    }
-    else if (req.accept('json')) {
-        res.json({error: 'Resource not found'});
-    }
-    else {
-        res.type('txt').send('404 Not Found');
-    }
+    res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
 
 app.use(errorHandler);
